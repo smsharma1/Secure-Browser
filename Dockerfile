@@ -1,5 +1,7 @@
 FROM ubuntu:14.04
 
+MAINTAINER "sharma.shubham736@gmail.com"
+
 RUN apt-get update && apt-get install -y firefox
 
 # Replace 1000 with your user / group id
