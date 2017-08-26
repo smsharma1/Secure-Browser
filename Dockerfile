@@ -1,5 +1,6 @@
 FROM ubuntu:14.04
 
+LABEL authors="Shubham Sharma,Rahul Gupta"
 MAINTAINER "sharma.shubham736@gmail.com"
 
 RUN apt-get update && apt-get install -y firefox
@@ -16,6 +17,7 @@ RUN export uid=1000 gid=1000 && \
 USER developer
 
 RUN echo root:secureBrowser | sudo /usr/sbin/chpasswd
+RUN echo developer:secureBrowser | sudo /usr/sbin/chpasswd
 
 ENV HOME /home/developer
 CMD /usr/bin/firefox
