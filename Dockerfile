@@ -1,6 +1,7 @@
 FROM ubuntu:14.04
 
 LABEL authors="Shubham Sharma,Rahul Gupta"
+
 MAINTAINER "sharma.shubham736@gmail.com"
 
 # Install PulseAudio.
@@ -18,5 +19,3 @@ ENV PULSE_SERVER /run/pulse/native
 
 COPY dockerstart.sh /start.sh
 ENTRYPOINT ["/start.sh"]
-
-# CMD ["firefox"]

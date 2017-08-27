@@ -4,7 +4,6 @@ set -e
 if [ "$1" = 'firefox' ]; then
 	USER_UID=${USER_UID:-1000}
 	USER_GID=${USER_GID:-1000}
-
 	# create user group
 	if ! getent group firefox >/dev/null; then
 		groupadd -f -g ${USER_GID} firefox

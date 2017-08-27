@@ -1,1 +1,1 @@
-xterm -e /home/grahul/Secure-Browser/start.sh $1
+x-terminal-emulator -e secure-firefox ${1:-"https//google.com"}
