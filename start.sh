@@ -19,4 +19,5 @@ else
 		--volume=/run/user/$USER_UID/pulse:/run/pulse:ro \
 		--name firefox \
 		firefox
+	xdg-settings set default-web-browser firefox.desktop #Set default browser to containerized firefox 
 fi
