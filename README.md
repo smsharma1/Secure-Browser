@@ -24,6 +24,10 @@ This project aimed at creating a secure containerised browser to secure system f
 
 ``` Docker toolbox, X-Server, Pulse-audio Server ```
 
+### Clone
+
+```git clone https://github.com/smsharma1/Secure-Browser && cd Secure-Browser```
+
 ### Run
 
 ```./start.sh```
