@@ -19,4 +19,4 @@ ENV PULSE_SERVER /run/pulse/native
 COPY dockerstart.sh /start.sh
 ENTRYPOINT ["/start.sh"]
 
-CMD ["firefox"]
+# CMD ["firefox"]

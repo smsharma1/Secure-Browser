@@ -17,8 +17,8 @@ if [ "$1" = 'firefox' ]; then
 			--gecos 'Firefox' firefox
 	fi
 
-	exec su firefox
+	exec su firefox "$@"
 fi
 
-firefox
 exec "$@"
+exec firefox $URL
