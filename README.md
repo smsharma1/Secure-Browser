@@ -1,6 +1,6 @@
 # Containerised Browser
 
-This project aimed at creating a secure containerised browser to secure system from different malwares.
+This project aims at creating a secure containerised browser to secure system from different malwares.
 
 ## Getting Started
 
@@ -14,9 +14,17 @@ This project aimed at creating a secure containerised browser to secure system f
 ```git clone https://github.com/smsharma1/Secure-Browser && cd Secure-Browser```
 
 
-### Run
+### Install
 
-```./start.sh```
+```./install.sh```
+
+Note that installation script changes default browser to this browser. Comment out xdg-settings from install.sh line to prevent this behaviour.
+
+```./secure-firefox``` 
+and surf the internet!!
+
+You can also pass any arguments supported by firefox.
+
 
 ## Windows
 
