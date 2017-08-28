@@ -30,7 +30,8 @@ You can also pass any arguments supported by firefox like multiple urls etc.
 ## Windows
 
 ### Prerequisites
-Docker toolbox(https://docs.docker.com/toolbox/toolbox_install_windows/), X-Server(https://sourceforge.net/projects/vcxsrv/)
+Docker toolbox(https://docs.docker.com/toolbox/toolbox_install_windows/),
+X-Server(https://sourceforge.net/projects/vcxsrv/)
 
 
 ### Run
