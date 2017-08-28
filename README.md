@@ -11,8 +11,8 @@ This project aimed at creating a secure containerised browser to secure system f
 ```git clone https://github.com/smsharma1/Secure-Browser && cd Secure-Browser```
 
 ### Installation
-``` ./install_docker.sh
-	./install.sh```
+``` ./install_docker.sh ```
+```./install.sh```
 
 ### Run
 
