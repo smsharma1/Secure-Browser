@@ -31,17 +31,13 @@ You can also pass any arguments supported by firefox like multiple urls etc.
 
 ### Prerequisites
 
-``` Docker toolbox, X-Server, Pulse-audio Server ```
+``` Docker toolbox(https://docs.docker.com/toolbox/toolbox_install_windows/), X-Server(https://sourceforge.net/projects/vcxsrv/)```
 
-### Clone
-
-```git clone https://github.com/smsharma1/Secure-Browser && cd Secure-Browser```
 
 ### Run
-
-```./install.sh```
+Run the X-server locally on your machine and then execute this command on your docker
+```docker run -d --name firefox1 -e DISPLAY=<ip of host where xserver is running>:0  jess/firefox```
 
 ### Uninstall
-
 ```remove_images_container.sh```
 
