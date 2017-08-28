@@ -6,17 +6,17 @@ This project aimed at creating a secure containerised browser to secure system f
 
 ## LINUX
 
-### Prerequisites
-``` Docker ```
-
 ### Clone
 
 ```git clone https://github.com/smsharma1/Secure-Browser && cd Secure-Browser```
 
+### Installation
+``` ./install_docker.sh
+	./install.sh```
 
 ### Run
 
-```./start.sh```
+```Click on any hyperlink or secure_firefox <url>```
 
 ## Windows
 
@@ -30,4 +30,9 @@ This project aimed at creating a secure containerised browser to secure system f
 
 ### Run
 
-```./start.sh```
+```./install.sh```
+
+### Uninstall
+
+```remove_images_container.sh```
+
