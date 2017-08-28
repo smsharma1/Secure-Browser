@@ -30,12 +30,12 @@ You can also pass any arguments supported by firefox like multiple urls etc.
 ## Windows
 
 ### Prerequisites
-
-``` Docker toolbox(https://docs.docker.com/toolbox/toolbox_install_windows/), X-Server(https://sourceforge.net/projects/vcxsrv/)```
+Docker toolbox(https://docs.docker.com/toolbox/toolbox_install_windows/), X-Server(https://sourceforge.net/projects/vcxsrv/)
 
 
 ### Run
 Run the X-server locally on your machine and then execute this command on your docker
+
 ```docker run -d --name firefox1 -e DISPLAY=<ip of host where xserver is running>:0  jess/firefox```
 
 ### Uninstall
