@@ -18,7 +18,7 @@ if ! getent passwd firefox >/dev/null; then
 fi
 
 #changing the user to firefox
-su firefox
+exec su firefox -c "firefox $URL"
 
 #opening new browser instance with url
-exec firefox $URL
+# exec firefox $URL

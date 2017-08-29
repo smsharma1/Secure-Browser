@@ -7,7 +7,7 @@ MAINTAINER "sharma.shubham736@gmail.com"
 # Install PulseAudio.
 WORKDIR /usr/src
 RUN apt-get update \
-    && apt-get install -y xdg-utils libxss1 pulseaudio \
+    && apt-get install -y xdg-utils libxss1 pulseaudio libcanberra-gtk-module \
     && apt-get clean \
     && echo enable-shm=no >> /etc/pulse/client.conf
 
